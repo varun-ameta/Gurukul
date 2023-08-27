@@ -19,7 +19,7 @@ const DashBoard = () => {
                 <div className="absolute top-0 left-0 w-full h-[260px] md:h-[649px] text-white text-xl font-bold">
                     <div className="flex w-full h-[80px] items-center justify-around">
                         <div className="logo">
-                            <h2>GURUKUL</h2>
+                        <Link to='/'><h2>GURUKUL</h2></Link>
                         </div>
                         <ul className="flex text-sm font-normal">
                             <Link to="/dashboard"><li className="mx-[10px] cursor-pointer hover:opacity-90">DashBoard</li></Link>

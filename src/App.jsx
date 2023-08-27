@@ -27,6 +27,7 @@ import Register from './components/Register';
 import Login from "./components/Login";
 import TermCondition from './pages/TermCondition';
 import Help from './pages/Help';
+import ContactForm from './components/ContactForm';
 
 const App = () => {
     return (
@@ -36,6 +37,7 @@ const App = () => {
                 <Route path="/dashboard" element={<DashBoard />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/Courses" element={<Courses />} />
+                <Route path="/contact" element={<ContactForm />} />
                 <Route path="/courses-completed" element={<Completed />} />
                 <Route path="/Web" element={<Webdetail />} />
                 <Route path="/App" element={<Appdetail />} />

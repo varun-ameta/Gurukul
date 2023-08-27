@@ -14,7 +14,7 @@ function TermCondition() {
                 <div className="absolute top-0 left-0 w-full h-[260px] md:h-[649px] text-black text-xl font-bold">
                     <div className="flex w-full h-[80px] items-center justify-around">
                         <div className="logo">
-                            <h2>GURUKUL</h2>
+                        <Link to='/'><h2>GURUKUL</h2></Link>
                         </div>
                         <ul className="flex text-base font-normal">
                             <Link to="/dashboard"><li className="mx-[10px] cursor-pointer hover:opacity-90">DashBoard</li></Link>
@@ -47,22 +47,22 @@ function TermCondition() {
                     <h1 className="text-2xl font-semibold mt-[15px]">Terms and conditions</h1>
                     <p className='text-gray-600 text-[15px] font-light text-left mt-[20px]'>
                         Welcome to Gurukul! These Terms and Conditions (the "Terms") govern your use of the learning platform and its associated services, features, and content (collectively, the "Platform"). By accessing or using the Platform, you agree to be bound by these Terms. If you do not agree to these Terms, please refrain from using the Platform.
-                        <br/>
+                        <br />
 
-                         Use of the Platform:
-                            
-                            <br/>
+                        Use of the Platform:
+
+                        <br />
                         1. Eligibility: You must be at least 18 years old or the age of majority in your jurisdiction to access and use the Platform. If you are accessing the Platform on behalf of an organization or entity, you represent and warrant that you have the authority to bind them to these Terms.
-                            <br/>
+                        <br />
                         2. Account Registration: To access certain features of the Platform, you may be required to create an account. You must provide accurate and complete information during the registration process and keep your account information up-to-date. You are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account.
-                        <br/>
-                        <br/>
-                        User Content: 
-                        <br/>
+                        <br />
+                        <br />
+                        User Content:
+                        <br />
                         1. You may have the opportunity to contribute content to the Platform, such as comments, questions, or other materials ("User Content"). By submitting User Content, you grant us a non-exclusive, transferable, sub-licensable, royalty-free, worldwide license to use, display, reproduce, modify, adapt, publish, distribute, and create derivative works from your User Content.
-                        <br/>
-                        Platform Content: 
-                        <br/>
+                        <br />
+                        Platform Content:
+                        <br />
                         1. All materials, including text, graphics, images, videos, software, and any other content made available through the Platform ("Platform Content") are the property of the Platform or its licensors and protected by intellectual property laws.
 
                     </p>

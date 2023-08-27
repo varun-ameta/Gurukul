@@ -28,14 +28,14 @@ const Home = () => {
                     <div className="flex w-full h-[80px] items-center justify-around">
                         <div className="logo">
                             {/* <img src={Logo} alt="Logo" /> */}
-                            <h2>GURUKUL</h2>
+                            <Link to='/'><h2>GURUKUL</h2></Link>
                         </div>
 
                         <ul className="flex text-sm font-normal">
-                            <li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">Home</li>
-                            <li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">About</li>
-                            <li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">Courses</li>
-                            <li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">Contact Us</li>
+                            <Link><li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">Home</li></Link>
+                            <Link to="/about"><li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">About</li></Link>
+                            <Link to="/Courses"><li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">Courses</li></Link>
+                            <Link to="/Contact"><li className="mx-[10px] cursor-pointer hover:opacity-90 text-lg hover:text-black hover:text-xl">Contact Us</li></Link>
                         </ul>
 
                         <div className="">
@@ -68,7 +68,7 @@ const Home = () => {
             <div className="mt-28">
                 <div className="text-center">
                     <h1 className="text-5xl text-black font-semibold">Our Programs</h1>
-                    <p className="text-black text-lg mt-5">Our learning platform offers a wide range of courses, from beginner to advanced levels, in a variety of subjects. We believe <br/> that everyone should have access to quality education, regardless of their location or background. That's <br/> why our courses are available to anyone with an internet connection.</p>
+                    <p className="text-black text-lg mt-5">Our learning platform offers a wide range of courses, from beginner to advanced levels, in a variety of subjects. We believe <br /> that everyone should have access to quality education, regardless of their location or background. That's <br /> why our courses are available to anyone with an internet connection.</p>
                 </div>
                 <div className="flex items-center justify-center mt-[60px]">
                     <img src={ProgramImage1} alt="" className="w-full h-[600px]" />
@@ -105,7 +105,7 @@ const Home = () => {
                     <img src={ProgramImage3} alt="" className="w-[800px] h-[600px] ml-5" />
                     <div className="mr-8 mt-[-50px]">
                         <h2 className="text-3xl">A Wide Variety Of Courses</h2>
-                        <p className="text-lg mt-5">A good learning platform should offer a wide variety of courses, from beginner <br/> to advanced levels, in a variety of subjects</p>
+                        <p className="text-lg mt-5">A good learning platform should offer a wide variety of courses, from beginner <br /> to advanced levels, in a variety of subjects</p>
                         <div className="flex items-center mt-5">
                             <FaAward className="bg-gradient-to-r from-[#434343] to-[#1f1b1b] text-white rounded-full w-6 h-6 p-1" size={20} />
                             <p className="ml-3">22,931 Yearly Graduates</p>
@@ -131,7 +131,7 @@ const Home = () => {
                             <h4 className="text-lg font-semibold">Amartya Panwar</h4>
                             <div className="flex mt-2">
                                 <RiDoubleQuotesL />
-                                <p className="ml-2 text-lg">I really like this learning platform. The content is high-quality and the instructors are engaging. I've learned a lot and <br/> I feel like I'm making good progress.</p>
+                                <p className="ml-2 text-lg">I really like this learning platform. The content is high-quality and the instructors are engaging. I've learned a lot and <br /> I feel like I'm making good progress.</p>
                             </div>
                         </div>
                     </div>
@@ -145,7 +145,7 @@ const Home = () => {
                             <h4 className="text-lg font-semibold">Paramveer Singh Rathore</h4>
                             <div className="flex mt-2">
                                 <RiDoubleQuotesL size={22} />
-                                <p className="ml-2 text-lg">This learning platform is okay. The content is good and the instructors are knowledgeable. I would definitely <br/> recommend  this platform to others.</p>
+                                <p className="ml-2 text-lg">This learning platform is okay. The content is good and the instructors are knowledgeable. I would definitely <br /> recommend  this platform to others.</p>
                             </div>
                         </div>
                     </div>
